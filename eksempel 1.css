@@ -31,9 +31,11 @@
     border:  1px solid gray;
     user-select: none;
 }
+
 body {
     margin-left: 20px;
 }
+
 .card {
     width: 500px;
     background-color: lightgray;
@@ -82,4 +84,8 @@ button {
     column-gap: 50px;
     row-gap: 50px;
     grid-template-columns: 500px 500px;
+}
+
+.outline {
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
